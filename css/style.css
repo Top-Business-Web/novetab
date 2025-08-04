@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #2B79EB;
+    --black-color: #0C0C0B;
+    --gray-color: #EFEFEF;
+    --font: "Rubik", sans-serif;
+}
+
+body{
+    font-family: var(--font);
+    scroll-behavior: smooth;
+    direction: ltr;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.p-80{
+    padding: 80px 0;
+}
+.main-btn{
+  background-color: var(--main-color);
+  border-radius: 50px;
+  width: 130px;
+  height: 40px;
+  color: white;
+  border: none;
+  position: relative;
+}
+.main-btn svg{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.main-btn h6{
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.second-btn{
+background-color: var(--main-color);
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  border: none;
+}
+
+.login-btn{
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+/* start scroll to top */
+.scroll-top{
+    background-color: black;
+    padding: 10px 15px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+.scroll-top:hover{
+    background-color: var(--main-color);
+}
+
+/* end scroll to top */
+
+/* start navbar */
+
+.navbar{
+    background-color: white;
+}
+.navbar .nav-item{
+    margin-right: 20px;
+}
+.navbar .nav-item .nav-link{
+    color: var(--black-color);
+    font-weight: 500;
+}
+.navbar .nav-item .nav-link:hover{
+    color: var(--main-color);
+}
+.navbar-light .navbar-toggler{
+    background-color: white;
+}
+
+/* end navbar */
+
+/* start landing */
+
+.bg-banner{
+  height: 600px;
+  background-image: linear-gradient(rgba(33,33,34,0.4), rgba(33,33,34,0.8)), url(../image/banner.png);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+/* end landing */
+
+/* start content home */
+
+.card-dark{
+  background-color: #161616;
+  color: #616264;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+.btn-faq{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+.section-app{
+    background-image: url(../image/app.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.title-new{
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.section-footer ul{
+    list-style: none;
+    padding: 0;
+}
+.section-footer ul li{
+    margin-bottom: 10px;
+}
+.section-footer ul li a{
+    color: black;
+    font-size: 15px;
+}
+.section-footer ul li a:hover{
+    color: var(--main-color);
+}
+
+/* end content home */
+
+/* start footer */
+
+.dropdown-language{
+    background-color: transparent;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    color: black;
+    padding: 8px 20px;
+}
+.social-icons ul{
+    display: flex;
+}
+.social-icons ul li{
+    margin: 10px;
+}
+
+/* end footer */
+
+/* start page resturant */
+
+.bg-banner-resturant{
+    height: 400px;
+    background-image: linear-gradient(rgba(33,33,34,0.4), rgba(33,33,34,0.8)), url(../image/banner-resturant.png);
+}
+.integration-card{
+    background-color: #F8F9FA;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* end page resturant */
