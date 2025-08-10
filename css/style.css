@@ -224,3 +224,10 @@ background-color: var(--main-color);
 }
 
 /* end page resturant */
+
+/* start page product */
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: var(--main-color);
+}
+/* end page product */

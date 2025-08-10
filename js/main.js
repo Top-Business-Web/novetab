@@ -32,4 +32,31 @@ $(function(){
         }
     });
 
+        // featured product
+
+    $(".slider-product .owl-carousel").owlCarousel({
+        autoplay: true,
+        autoplayhoverpause: true,
+        autoplaytimeout: 100,
+        items: 0,
+        nav: false,
+        loop: true,
+        dots: true,
+        responsive: {
+            0 : {
+                items: 1
+            },
+            485 : {
+                items: 1
+            },
+            728 : {
+                items: 1
+            },
+            1200 : {
+                items: 1
+            }
+        }
+    });
+
+
 });
