@@ -140,6 +140,19 @@ background-color: var(--main-color);
     border-radius: 50px;
     font-size: 14px;
 }
+
+.featured-list.edit li{
+    background-color: transparent;
+    width: 100px;
+}
+.featured-list.edit li.active,
+.featured-list.edit li:hover{
+    background-color: transparent;
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    border-radius: 0;
+}
+
 .section-footer ul{
     list-style: none;
     padding: 0;
@@ -204,11 +217,18 @@ background-color: var(--main-color);
     margin: 10px;
     cursor: pointer;
 }
+.featured-list li a{
+    color: black;
+}
 
 .featured-list li.active,
 .featured-list li:hover{
     background-color: black;
     color: white;
+}
+.featured-list li.active a,
+.featured-list li:hover a{
+        color: white;
 }
 .card-slider{
     box-shadow: 0 5px 10px rgb(1 1 1 / 15%);
@@ -231,3 +251,12 @@ background-color: var(--main-color);
     background-color: var(--main-color);
 }
 /* end page product */
+
+/* start page contact */
+
+input, select, textarea{
+    border-radius: 0;
+    border: 1px solid gainsboro;
+    margin: 10px 0;
+}
+/* end page contact */

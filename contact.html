@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>novetab</title>
+
+    <link rel="icon" href="image/logo.png" type="image/x-icon" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- english css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Fustat:wght@200..800&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header class="pt-4 pb-1">
+      <div class="container">
+        <div class="d-flex justify-content-end">
+          <button type="button" class="login-btn">
+            Support
+            <img src="image/Vector.png" alt="Login Icon"
+              style="width: 10px; height: 10px; margin-left: 5px;" />
+          </button>
+          <div>
+            <div class="dropdown">
+              <button class="dropdown-toggle dropdown-language"
+                style="border: none;" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-globe"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">English(US)</a></li>
+                <li><a class="dropdown-item" href="#">Arabic</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.png" style="height: 50px" alt="no logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page"
+                href="resturant.html">Restaurants</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page"
+                href="retails.html">Retails</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="product.html">
+                Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page"
+                href="price.html">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html">
+                Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="me-2 ms-2 d-flex align-items-center">
+              <button type="button" class="login-btn">
+                Login
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="second-btn mb-3 mt-3">
+                Talk to sales
+                <img src="image/chat.png" alt="Phone Icon"
+                  style="width: 20px; height: 20px; margin-left: 5px;" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+
+    <div class="banner-home">
+      <div class="container">
+        <div class="bg-banner bg-banner-resturant" style="background-image: url('image/contact-banner.png');">
+          <div class="row h-100">
+            <div class="col-lg-7 col-12 d-flex align-items-end">
+              <div class="p-5">
+                <h1 class="mb-3">
+                  Contact Us
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact p-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                <img src="image/contact.png" class="img-fluid" alt="Contact Us" />
+                <h1 class="mb-5">
+                    Sign up for Novetap Restaurant or Retail, 
+                    <span style="color: #2B79EB;">get the first 6 months free*</span>
+                </h1>
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h6 style="margin: 0 10px;">
+                    No subscription, setup, hardware or shipping fees
+                  </h6>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="card p-5" style="border-radius: 10px;">
+                    <h4>
+                        Request a Demo
+                    </h4>
+                    <form class="row g-3">
+  <div class="col-12">
+    <input type="text" class="form-control" id="validationDefault01" placeholder="First Name" required>
+  </div>
+  <div class="col-12">
+    <input type="text" class="form-control" id="validationDefault02" placeholder="Last Name" required>
+  </div>
+  <div class="col-12">
+    <input type="text" class="form-control" id="validationDefault03" placeholder="Email" required>
+  </div>
+  <div class="col-12">
+    <select class="form-select" id="validationDefault04" required>
+      <option selected disabled value="">Country</option>
+      <option>USA</option>
+      <option>Canada</option>
+      <option>UK</option>
+    </select>
+  </div>
+  <div class="col-12">
+    <input type="text" class="form-control" id="validationDefault05" placeholder="Business Name" required>
+  </div>
+  <div class="col-12">
+    <textarea class="form-control" id="validationDefault06" placeholder="Describe" required></textarea>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" style="border-radius: 50px; width:100%" type="submit">Send</button>
+  </div>
+</form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-commitment p-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12"></div>
+          <div class="col-lg-6 col-12">
+            <p class="fs-2 text-center text-white mb-4">
+              Try for free,
+              <br>
+               no commitment!
+            </p>
+             <div class="d-flex justify-content-center">
+              <button type="button" class="second-btn change-color mb-3 mt-3">
+                    More Details
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+             </div>
+          </div>
+          <div class="col-lg-3 col-12"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-footer" style="padding: 80px 0 0 0;">
+      <div class="container">
+        <div class="logo-footer">
+          <img src="image/logo.png" alt="Novetap Logo" style="height: 50px;" />
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Products</p>
+            <ul>
+              <li>
+                <a href="#">Point of sale</a>
+              </li>
+              <li>
+                <a href="#">HR System</a>
+              </li>
+              <li>
+                <a href="#">Accounting</a>
+              </li>
+              <li>
+                <a href="#">Finance</a>
+              </li>
+              <li>
+                <a href="#">Sales</a>
+              </li>
+              <li>
+                <a href="#">Websites</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Quick Links</p>
+            <ul>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">Support</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Resources</p>
+            <ul>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+              <li>
+                <a href="#">Request Demo</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Legal</p>
+            <ul>
+              <li>
+                <a href="#">Privacy policy</a>
+              </li>
+              <li>
+                <a href="#">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <hr style="opacity: 0.1;">
+
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mt-4">
+          <div>
+            <div class="dropdown">
+              <button class="dropdown-toggle dropdown-language" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fa-solid fa-globe"></i>
+                English(US)
+              </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Arabic</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="social-icons">
+              <ul>
+                <li><a href="#">
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-youtube fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                  </a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <hr style="opacity: 0.1;">
+
+        <div class="container">
+          <p style="font-size: 14px;">
+            Novetap © 2025. All Rights Reserved.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- scroll to top -->
+
+      <i class="fa-solid fa-angle-up fa-lg text-white"></i>
+    </a>
+
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
