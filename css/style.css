@@ -1,29 +1,29 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-:root{
-    --main-color: #2B79EB;
-    --black-color: #0C0C0B;
-    --gray-color: #EFEFEF;
-    --font: "Rubik", sans-serif;
+:root {
+  --main-color: #2b79eb;
+  --black-color: #0c0c0b;
+  --gray-color: #efefef;
+  --font: "Rubik", sans-serif;
 }
 
-body{
-    font-family: var(--font);
-    scroll-behavior: smooth;
-    direction: ltr;
-    padding: 0;
-    margin: 0;
+body {
+  font-family: var(--font);
+  scroll-behavior: smooth;
+  direction: ltr;
+  padding: 0;
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.p-80{
-    padding: 80px 0;
+.p-80 {
+  padding: 80px 0;
 }
-.main-btn{
+.main-btn {
   background-color: var(--main-color);
   border-radius: 50px;
   width: 130px;
@@ -32,20 +32,20 @@ a{
   border: none;
   position: relative;
 }
-.main-btn svg{
+.main-btn svg {
   width: 30px;
   height: 30px;
   position: absolute;
   right: 5px;
   top: 5px;
 }
-.main-btn h6{
+.main-btn h6 {
   margin-bottom: 0;
   margin-right: 20px;
 }
 
-.second-btn{
-background-color: var(--main-color);
+.second-btn {
+  background-color: var(--main-color);
   border-radius: 50px;
   width: 150px;
   height: 40px;
@@ -53,58 +53,72 @@ background-color: var(--main-color);
   border: none;
 }
 
-.change-color{
-    background-color: white;
-    color: var(--main-color);
+.change-color {
+  background-color: white;
+  color: var(--main-color);
 }
 
-.login-btn{
-    background-color: transparent;
-    color: black;
-    border: none;
+.login-btn {
+  background-color: transparent;
+  color: black;
+  border: none;
 }
 
 /* start scroll to top */
-.scroll-top{
-    background-color: black;
-    padding: 10px 15px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    display: none;
+.scroll-top {
+  background-color: black;
+  padding: 10px 15px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
 }
-.scroll-top:hover{
-    background-color: var(--main-color);
+.scroll-top:hover {
+  background-color: var(--main-color);
 }
 
 /* end scroll to top */
 
 /* start navbar */
 
-.navbar{
-    background-color: white;
+.navbar {
+  background-color: white;
 }
-.navbar .nav-item{
-    margin-right: 20px;
+.navbar .nav-item {
+  margin-right: 20px;
 }
-.navbar .nav-item .nav-link{
-    color: var(--black-color);
-    font-weight: 500;
+.navbar .nav-item .nav-link {
+  color: var(--black-color);
+  font-weight: 500;
 }
-.navbar .nav-item .nav-link:hover{
-    color: var(--main-color);
+.navbar .nav-item .nav-link:hover {
+  color: var(--main-color);
 }
-.navbar-light .navbar-toggler{
-    background-color: white;
+.navbar-light .navbar-toggler {
+  background-color: white;
+}
+.menu {
+  width: max-content;
+  padding-right: 20px;
+}
+.menu.dropdown-menu[data-bs-popper] {
+  left: -370px;
+}
+.dropdown-toggle::after{
+    display: none;
 }
 
 /* end navbar */
 
 /* start landing */
 
-.bg-banner{
+.bg-banner {
   height: 600px;
-  background-image: linear-gradient(rgba(33,33,34,0.4), rgba(33,33,34,0.8)), url(../image/banner.png);
+  background-image: linear-gradient(
+      rgba(33, 33, 34, 0.4),
+      rgba(33, 33, 34, 0.8)
+    ),
+    url(../image/banner.png);
   color: white;
   background-size: cover;
   background-position: center;
@@ -115,148 +129,155 @@ background-color: var(--main-color);
 
 /* start content home */
 
-.card-dark{
+.card-dark {
   background-color: #161616;
   color: #616264;
   padding: 50px 20px;
   border-radius: 10px;
 }
-.btn-faq{
-    background-color: transparent;
-    border: none;
-    width: 100%;
-    text-align: left;
+.btn-faq {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  text-align: left;
 }
-.section-app{
-    background-image: url(../image/app.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
+.section-app {
+  background-image: url(../image/app.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
 }
-.title-new{
-    border: 1px solid white;
-    padding: 5px 15px;
-    border-radius: 50px;
-    font-size: 14px;
+.title-new {
+  border: 1px solid white;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 14px;
 }
 
-.featured-list.edit li{
-    background-color: transparent;
-    width: 100px;
+.featured-list.edit li {
+  background-color: transparent;
+  width: 100px;
 }
 .featured-list.edit li.active,
-.featured-list.edit li:hover{
-    background-color: transparent;
-    color: var(--main-color);
-    border-bottom: 2px solid var(--main-color);
-    border-radius: 0;
+.featured-list.edit li:hover {
+  background-color: transparent;
+  color: var(--main-color);
+  border-bottom: 2px solid var(--main-color);
+  border-radius: 0;
 }
 
-.section-footer ul{
-    list-style: none;
-    padding: 0;
+.section-footer ul {
+  list-style: none;
+  padding: 0;
 }
-.section-footer ul li{
-    margin-bottom: 10px;
+.section-footer ul li {
+  margin-bottom: 10px;
 }
-.section-footer ul li a{
-    color: black;
-    font-size: 15px;
+.section-footer ul li a {
+  color: black;
+  font-size: 15px;
 }
-.section-footer ul li a:hover{
-    color: var(--main-color);
+.section-footer ul li a:hover {
+  color: var(--main-color);
 }
 
 /* end content home */
 
 /* start footer */
 
-.dropdown-language{
-    background-color: transparent;
-    border: 1px solid gainsboro;
-    border-radius: 10px;
-    color: black;
-    padding: 8px 20px;
+.dropdown-language {
+  background-color: transparent;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  color: black;
+  padding: 8px 20px;
 }
-.social-icons ul{
-    display: flex;
+.social-icons ul {
+  display: flex;
 }
-.social-icons ul li{
-    margin: 10px;
+.social-icons ul li {
+  margin: 10px;
 }
 
 /* end footer */
 
 /* start page resturant */
 
-.bg-banner-resturant{
-    height: 400px;
-    background-image: linear-gradient(rgba(33,33,34,0.4), rgba(33,33,34,0.8)), url(../image/banner-resturant.png);
+.bg-banner-resturant {
+  height: 400px;
+  background-image: linear-gradient(
+      rgba(33, 33, 34, 0.4),
+      rgba(33, 33, 34, 0.8)
+    ),
+    url(../image/banner-resturant.png);
 }
-.integration-card{
-    background-color: #F8F9FA;
-    padding: 30px;
-    border-radius: 10px;
+.integration-card {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
 }
-.section-commitment{
-    background-image: url(../image/image-commitment.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.section-commitment {
+  background-image: url(../image/image-commitment.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.featured-list li{
-    height: 50px;
-    width: 160px;
-    background-color: #D9D9D9;
-    color: black;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    cursor: pointer;
+.featured-list li {
+  height: 50px;
+  width: 160px;
+  background-color: #d9d9d9;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  cursor: pointer;
 }
-.featured-list li a{
-    color: black;
+.featured-list li a {
+  color: black;
 }
 
 .featured-list li.active,
-.featured-list li:hover{
-    background-color: black;
-    color: white;
+.featured-list li:hover {
+  background-color: black;
+  color: white;
 }
 .featured-list li.active a,
-.featured-list li:hover a{
-        color: white;
+.featured-list li:hover a {
+  color: white;
 }
-.card-slider{
-    box-shadow: 0 5px 10px rgb(1 1 1 / 15%);
-    border-radius: 10px;
-    height: 500px;
-    margin: 10px 0;
+.card-slider {
+  box-shadow: 0 5px 10px rgb(1 1 1 / 15%);
+  border-radius: 10px;
+  height: 500px;
+  margin: 10px 0;
 }
-.card-slider img{
-    height: 300px;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
+.card-slider img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 /* end page resturant */
 
 /* start page product */
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
-    background-color: var(--main-color);
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: var(--main-color);
 }
 /* end page product */
 
 /* start page contact */
 
-input, select, textarea{
-    border-radius: 0;
-    border: 1px solid gainsboro;
-    margin: 10px 0;
+input,
+select,
+textarea {
+  border-radius: 0;
+  border: 1px solid gainsboro;
+  margin: 10px 0;
 }
 /* end page contact */
