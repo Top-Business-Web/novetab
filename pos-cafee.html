@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>novetab</title>
+
+    <link rel="icon" href="image/logo.png" type="image/x-icon" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- english css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Fustat:wght@200..800&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header class="pt-4 pb-1">
+      <div class="container">
+        <div class="d-flex justify-content-end">
+          <button type="button" class="login-btn">
+            Support
+            <img src="image/Vector.png" alt="Login Icon"
+              style="width: 10px; height: 10px; margin-left: 5px;" />
+          </button>
+          <div>
+            <div class="dropdown">
+              <button class="dropdown-toggle dropdown-language"
+                style="border: none;" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-globe"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">English(US)</a></li>
+                <li><a class="dropdown-item" href="#">Arabic</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.png" style="height: 50px" alt="no logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Restaurants
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="fine-dining.html">Fine Dining</a></li>
+            <li><a class="dropdown-item" href="fast-food.html">Fast Food</a></li>
+            <li><a class="dropdown-item" href="bar-pub.html">Bar and Pub </a></li>
+            
+          </ul>
+        </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page"
+                href="retails.html">Retails</a>
+            </li>
+             <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu menu" aria-labelledby="navbarDropdown">
+                      <div class="row">
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Finance</a></h6>
+                          <li><a class="dropdown-item" href="accounting.html">Accounting</a></li>
+                          <li><a class="dropdown-item" href="invoicing.html">Invoicing</a></li>
+                          <li><a class="dropdown-item" href="expenses.html">Expenses</a></li>
+                          <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Sales</a></h6>
+                          <li><a class="dropdown-item" href="crm.html">CRM</a></li>
+                          <li><a class="dropdown-item" href="sales.html">Sales</a></li>
+                          <li><a class="dropdown-item" href="pos-resturant.html">POS Restaurant</a></li>
+                          <li><a class="dropdown-item" href="pos-fast.html">POS Fast food</a></li>
+                          <li><a class="dropdown-item" href="pos-cafee.html">POS Cafee</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Supply Chain</a></h6>
+                          <li><a class="dropdown-item" href="inventory.html">Inventory</a></li>
+                          <li><a class="dropdown-item" href="manufacturing.html">Manufacturing</a></li>
+                          <li><a class="dropdown-item" href="purchase.html">Purchase</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Electronic services</a></h6>
+                          <li><a class="dropdown-item" href="website.html">Website</a></li>
+                          <li><a class="dropdown-item" href="ecommerce.html">Ecommerce</a></li>
+                          <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                          <li><a class="dropdown-item" href="live-chat.html">Live Chat</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">HR</a></h6>
+                          <li><a class="dropdown-item" href="employees.html">Employees</a></li>
+                          <li><a class="dropdown-item" href="time-off.html">Time off</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Digital Marketing</a></h6>
+                        </div>
+                      </div>
+                    </ul>
+                  </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page"
+                href="price.html">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html">
+                Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="me-2 ms-2 d-flex align-items-center">
+              <button type="button" class="login-btn">
+                Login
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="second-btn mb-3 mt-3">
+                Talk to sales
+                <img src="image/chat.png" alt="Phone Icon"
+                  style="width: 20px; height: 20px; margin-left: 5px;" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+
+    <div class="banner-home">
+      <div class="container">
+        <div class="bg-banner bg-banner-resturant" style="background-image: url('image/pos-shop-banner.png');">
+          <div class="row h-100">
+            <div class="col-lg-7 col-12 d-flex align-items-end">
+              <div class="p-5">
+                <h1 class="mb-3">
+                    The point of sale system you’ve been waiting for
+                </h1>
+                <p class="mb-4">
+                 Run and grow your business with smart POS solutions designed for restaurants and retailers.Get started
+                </p>
+                <button type="button" class="second-btn mb-3">
+                  Start Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="about p-80">
+        <div class="container">
+             <div class="row mb-5">
+          <div class="col-lg-3 col-12"></div>
+          <div class="col-lg-6 col-12">
+            <div class="main-banner">
+          <h2 class="text-center">
+            It doesn’t get easier than this
+          </h2>
+        </div>
+          </div>
+          <div class="col-lg-3 col-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-12 mb-3">
+                <img src="image/rocket-filled 1.png" class="img-fluid mb-2" style="height: 80px;" alt="Retail Management" />
+                <h3>Simple to get started</h3>
+                <p style="opacity: 0.5;">
+                    Onboarding is quick and training is painless, so you can start accepting sales and orders in minutes.
+                </p>
+            </div>
+            <div class="col-lg-4 col-12 mb-3">
+                <img src="image/images 1.png" class="img-fluid mb-2" style="height: 80px;" alt="Retail Management" />
+                <h3>Easy to use</h3>
+                <p style="opacity: 0.5;">
+                    From entry-level employees to executives, the platform is designed to make every user’s job easier.
+                </p>
+            </div>
+            <div class="col-lg-4 col-12 mb-3">
+                <img src="image/scale-02 1.png" class="img-fluid mb-2" style="height: 80px;" alt="Retail Management" />
+                <h3>Effortless to scale</h3>
+                <p style="opacity: 0.5;">
+                    Our solutions adapt to your needs. When you’re ready to add on a new station, integration or function, it’s a quick transition.
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+     <div class="section-client mb-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-3 col-12"></div>
+          <div class="col-lg-6 col-12">
+            <div class="main-banner">
+          <h2 class="text-center">
+            POS systems for restaurants
+          </h2>
+          <p class="text-center">
+            From craft stores to craft breweries, our POS solutions are tailored to your industry’s unique challenges and needs.
+          </p>
+        </div>
+          </div>
+          <div class="col-lg-3 col-12"></div>
+        </div>
+        <div class="row mt-5" style="background-color: #F3F4F6; border-radius: 20px; padding: 70px 40px;">
+            <div class="col-lg-6 col-12">
+            <img src="image/pos-shop-about1.png" class="img-fluid h-100"
+              alt="About Us" />
+          </div>
+          <div class="col-lg-6 col-12">
+            <div>
+              <h2 class="mb-4">
+                   خصائص عامة
+              </h2>
+              <div class="mb-4">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       المتجر الإلكتروني
+                  </h5>
+                </div>
+                <p>
+                  متجر الكتروني متكامل على الإنترنت لبيع المنتجات بشكل أكثر كفاءة.
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       طريقة العرض
+                  </h5>
+                </div>
+                <p>
+                     واجهة واحدة فائقة الوضوح، لتقديم خدمات مثالية على أي جهاز.
+
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       المتجر الإلكتروني
+                  </h5>
+                </div>
+                <p>
+                  متجر الكتروني متكامل على الإنترنت لبيع المنتجات بشكل أكثر كفاءة.
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       المتجر الإلكتروني
+                  </h5>
+                </div>
+                <p>
+                  متجر الكتروني متكامل على الإنترنت لبيع المنتجات بشكل أكثر كفاءة.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="banner-home p-80">
+      <div class="container">
+        <div class="">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="p-5">
+                <h1 class="mb-3">
+                    Sign up for Novetap Restaurant, <span style="color: #2D7AEB;">get the first 6 months free*</span>
+                </h1>
+                <p class="mb-4">
+                    It doesn’t get any easier than this
+                </p>
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 15px; height: 15px;" />
+                  <p class="mb-5" style="margin: 0 10px; opacity: 0.5;">
+                    No subscription, setup, hardware or shipping fees
+                  </p>
+                </div>
+                <div>
+                    <button type="button" class="second-btn mb-3">
+                  Get started
+                  <i class="fa-solid fa-arrow-right text-white"></i>
+                </button>
+                </div>
+              </div>
+            </div>
+             <div class="col-lg-6 col-12">
+                <img src="image/novetap-mobileapp 1.png" style="height: 500px;" class="img-fluid" alt="Receipt" />
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+         <div class="section-managent p-80">
+      <div class="container">
+          <div>
+            <div>
+              <div class="row mb-5">
+          <div class="col-lg-2 col-12"></div>
+          <div class="col-lg-8 col-12">
+            <div class="main-banner">
+          <h1 class="text-center">
+            POS hardware that’s effortless and effective
+          </h1>
+          <p class="text-center">
+            Empower your staff with sleek hardware that makes their jobs easier. Simple to set up and operate, our flexible options for countertop POS terminals and mobile devices are built for all technology comfort levels.
+          </p>
+        </div>
+          </div>
+          <div class="col-lg-2 col-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-12 mb-3">
+                <div class="d-flex justify-content-center mb-3">
+                    <img src="image/novetap-pos 2.png" style="height: 300px;" class="img-fluid" alt="Retail Management" />
+                </div>
+                <h2 class="mb-3 text-center">Novetap Restaurant</h2>
+                <p class="text-center" style="opacity: 0.5;">
+                     touch-screen terminals, receipt printers, barcode scanners, fast transactions, and efficient restaurant management."
+                </p>
+            </div>
+            <div class="col-lg-4 col-12 mb-3">
+                <div class="d-flex justify-content-center mb-3">
+                    <img src="image/tablet-pos-novetap 1.png" style="height: 300px;" class="img-fluid" alt="Retail Management" />
+                </div>
+                <h2 class="mb-3 text-center">Waiter Tablet</h2>
+                <p class="text-center" style="opacity: 0.5;">
+                    allows restaurant staff to take orders, send them directly to the kitchen, and process payments, improving service speed and accuracy.
+                </p>
+            </div>
+            <div class="col-lg-4 col-12 mb-3">
+                <div class="d-flex justify-content-center mb-3">
+                    <img src="image/novetap-Dmenu 1.png" style="height: 300px;" class="img-fluid" alt="Retail Management" />
+                </div>
+                <h2 class="mb-3 text-center">Mobile POS</h2>
+                <p class="text-center" style="opacity: 0.5;">
+                     QR-based menu that allows customers to browse dishes, place orders, and make payments directly from their table, enhancing convenience and efficiency.
+                </p>
+            </div>
+        </div>
+            </div>
+          </div>
+      </div>
+    </div>
+     <div class="row mt-5">
+          <div class="col-lg-6 col-12">
+            <div>
+              <h2 class="mb-4">
+                   الدفع
+              </h2>
+              <div class="mb-4">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       الأسعار والخصومات
+                  </h5>
+                </div>
+                <p>
+                       تحديد أسعار العميل وعرض الخصومات النسبية على منتج واحد أو الطلب بأكمله.
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       طريقة العرض
+                  </h5>
+                </div>
+                <p>
+                     واجهة واحدة فائقة الوضوح، لتقديم خدمات مثالية على أي جهاز.
+
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       المتجر الإلكتروني
+                  </h5>
+                </div>
+                <p>
+                  متجر الكتروني متكامل على الإنترنت لبيع المنتجات بشكل أكثر كفاءة.
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       المتجر الإلكتروني
+                  </h5>
+                </div>
+                <p>
+                  متجر الكتروني متكامل على الإنترنت لبيع المنتجات بشكل أكثر كفاءة.
+                </p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <img src="image/pos-resturant-about1.png" class="img-fluid h-100"
+              alt="About Us" />
+          </div>
+        </div>
+        <div class="row mt-5" style="background-color: #F3F4F6; border-radius: 20px; padding: 70px 40px;">
+            <div class="col-lg-6 col-12">
+            <img src="image/pos-resturant-about2.png" class="img-fluid h-100"
+              alt="About Us" />
+          </div>
+          <div class="col-lg-6 col-12">
+            <div>
+              <h2 class="mb-4">
+                   خصائص عامة
+              </h2>
+              <div class="mb-4">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       المتجر الإلكتروني
+                  </h5>
+                </div>
+                <p>
+                  متجر الكتروني متكامل على الإنترنت لبيع المنتجات بشكل أكثر كفاءة.
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       طريقة العرض
+                  </h5>
+                </div>
+                <p>
+                     واجهة واحدة فائقة الوضوح، لتقديم خدمات مثالية على أي جهاز.
+
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       المتجر الإلكتروني
+                  </h5>
+                </div>
+                <p>
+                  متجر الكتروني متكامل على الإنترنت لبيع المنتجات بشكل أكثر كفاءة.
+                </p>
+              </div>
+
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                       المتجر الإلكتروني
+                  </h5>
+                </div>
+                <p>
+                  متجر الكتروني متكامل على الإنترنت لبيع المنتجات بشكل أكثر كفاءة.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-testimonials p-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-12"></div>
+          <div class="col-lg-8 col-12">
+            <div class="main-banner">
+              <h1 class="text-center">
+                Why Reasturants Choose NoveTap
+              </h1>
+            </div>
+          </div>
+          <div class="col-lg-2 col-12"></div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6 col-12">
+            <img src="image/review.png" class="img-fluid" alt="Testimonials" style="height: 300px;" />
+          </div>
+          <div class="col-lg-6 col-12">
+            <div>
+              <i class="fa-solid fa-quote-left" style="color: #2D7AEB; font-size: 70px;"></i>
+              <h2>
+                Integrate the restaurant CRM system with your POS and built-in online ordering to streamline operations and maximize efficiency.
+              </h2>
+              <p style="opacity: 0.5;">
+                - Ahmed Ismail - Owner of the Fishland, Cairo Egypt
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-80" style="background-color: #F5F8FB;">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div style="width: 45%;">
+            <h5 class="mb-3">
+              “Integrate the restaurant CRM system with your POS and built-in
+              online ordering to streamline operations and maximize efficiency.”
+            </h5>
+            <p>
+              Ahmed Ismail - Owner of the Fishland, Cairo Egypt
+            </p>
+          </div>
+          <div style="width: 45%;">
+            <h5 class="mb-3">
+              “Integrate the restaurant CRM system with your POS and built-in
+              online ordering to streamline operations and maximize efficiency.”
+            </h5>
+            <p>
+              - Ahmed Ismail - Owner of the Fishland, Cairo Egypt
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-commitment p-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-12"></div>
+          <div class="col-lg-6 col-12">
+            <p class="fs-2 text-center text-white mb-4">
+              Try for free,
+              <br>
+               no commitment!
+            </p>
+             <div class="d-flex justify-content-center">
+              <button type="button" class="second-btn change-color mb-3 mt-3">
+                    More Details
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+             </div>
+          </div>
+          <div class="col-lg-3 col-12"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-footer" style="padding: 80px 0 0 0;">
+      <div class="container">
+        <div class="logo-footer">
+          <img src="image/logo.png" alt="Novetap Logo" style="height: 50px;" />
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Products</p>
+            <ul>
+              <li>
+                <a href="#">Point of sale</a>
+              </li>
+              <li>
+                <a href="#">HR System</a>
+              </li>
+              <li>
+                <a href="#">Accounting</a>
+              </li>
+              <li>
+                <a href="#">Finance</a>
+              </li>
+              <li>
+                <a href="#">Sales</a>
+              </li>
+              <li>
+                <a href="#">Websites</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Quick Links</p>
+            <ul>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">Support</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Resources</p>
+            <ul>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+              <li>
+                <a href="#">Request Demo</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Legal</p>
+            <ul>
+              <li>
+                <a href="#">Privacy policy</a>
+              </li>
+              <li>
+                <a href="#">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <hr style="opacity: 0.1;">
+
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mt-4">
+          <div>
+            <div class="dropdown">
+              <button class="dropdown-toggle dropdown-language" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fa-solid fa-globe"></i>
+                English(US)
+              </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Arabic</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="social-icons">
+              <ul>
+                <li><a href="#">
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-youtube fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                  </a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <hr style="opacity: 0.1;">
+
+        <div class="container">
+          <p style="font-size: 14px;">
+            Novetap © 2025. All Rights Reserved.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- scroll to top -->
+
+      <i class="fa-solid fa-angle-up fa-lg text-white"></i>
+    </a>
+
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
