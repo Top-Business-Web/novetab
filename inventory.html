@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>novetab</title>
+
+    <link rel="icon" href="image/logo.png" type="image/x-icon" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- english css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Fustat:wght@200..800&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <header class="pt-4 pb-1">
+      <div class="container">
+        <div class="d-flex justify-content-end">
+          <button type="button" class="login-btn">
+            Support
+            <img src="image/Vector.png" alt="Login Icon"
+              style="width: 10px; height: 10px; margin-left: 5px;" />
+          </button>
+          <div>
+            <div class="dropdown">
+              <button class="dropdown-toggle dropdown-language"
+                style="border: none;" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-globe"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">English(US)</a></li>
+                <li><a class="dropdown-item" href="#">Arabic</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+   <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.png" style="height: 50px" alt="no logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Restaurants
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="fine-dining.html">Fine Dining</a></li>
+            <li><a class="dropdown-item" href="fast-food.html">Fast Food</a></li>
+            <li><a class="dropdown-item" href="bar-pub.html">Bar and Pub </a></li>
+            
+          </ul>
+        </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page"
+                href="retails.html">Retails</a>
+            </li>
+             <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu menu" aria-labelledby="navbarDropdown">
+                      <div class="row">
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Finance</a></h6>
+                          <li><a class="dropdown-item" href="accounting.html">Accounting</a></li>
+                          <li><a class="dropdown-item" href="invoicing.html">Invoicing</a></li>
+                          <li><a class="dropdown-item" href="expenses.html">Expenses</a></li>
+                          <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Sales</a></h6>
+                          <li><a class="dropdown-item" href="crm.html">CRM</a></li>
+                          <li><a class="dropdown-item" href="sales.html">Sales</a></li>
+                          <li><a class="dropdown-item" href="pos-resturant.html">POS Restaurant</a></li>
+                          <li><a class="dropdown-item" href="pos-fast.html">POS Fast food</a></li>
+                          <li><a class="dropdown-item" href="pos-cafee.html">POS Cafee</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Supply Chain</a></h6>
+                          <li><a class="dropdown-item" href="inventory.html">Inventory</a></li>
+                          <li><a class="dropdown-item" href="manufacturing.html">Manufacturing</a></li>
+                          <li><a class="dropdown-item" href="purchase.html">Purchase</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Electronic services</a></h6>
+                          <li><a class="dropdown-item" href="website.html">Website</a></li>
+                          <li><a class="dropdown-item" href="ecommerce.html">Ecommerce</a></li>
+                          <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                          <li><a class="dropdown-item" href="live-chat.html">Live Chat</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">HR</a></h6>
+                          <li><a class="dropdown-item" href="employees.html">Employees</a></li>
+                          <li><a class="dropdown-item" href="time-off.html">Time off</a></li>
+                        </div>
+                        <div class="col-lg-2">
+                          <h6><a class="dropdown-item fw-bold" href="#">Digital Marketing</a></h6>
+                        </div>
+                      </div>
+                    </ul>
+                  </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page"
+                href="price.html">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="contact.html">
+                Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="me-2 ms-2 d-flex align-items-center">
+              <button type="button" class="login-btn">
+                Login
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="second-btn mb-3 mt-3">
+                Talk to sales
+                <img src="image/chat.png" alt="Phone Icon"
+                  style="width: 20px; height: 20px; margin-left: 5px;" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+
+    <div class="banner-home">
+      <div class="container">
+        <div class="">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <div class="p-5">
+                <h1 class="mb-3">
+                    Finally, a modern inventory system
+                </h1>
+                <p class="mb-4">
+                    Reduce stockouts, speed up operations, optimize routes and get real time visibility with Novetap's warehouse management app.
+                </p>
+                <div>
+                    <button type="button" class="second-btn mb-3">
+                  Get a demo
+                  <i class="fa-solid fa-arrow-right text-white"></i>
+                </button>
+                </div>
+              </div>
+            </div>
+             <div class="col-lg-6 col-12">
+                <img src="image/inventory-banner.png" style="height: 400px;" class="img-fluid" alt="Receipt" />
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="p-80">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-1 mt-2">
+                    <span class="bg-dark text-white p-2" style="border-radius: 10px;">
+                    EXTRA
+                </span>
+                </div>
+                <div class="col-11">
+                    <h1>
+                        Organize product movement in the warehouse, speed up processes to optimize routes, and get a complete view of quantities.
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="image/inventory-icon 1.png" style="height: 60px;" class="img-fluid" alt="Product Slider" />
+                    <h5 class="mt-3 mb-3">   العمليات</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               استراتيجة تجديد المخزون.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               قواعد الانتاج حسب الطلب.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               جدولة الانتاج.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               اقتراحات لأوامر الشراء.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               متابعة الموردين.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               إشعارات استلام أوامر الشراء.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="image/inventory icon 2.png" style="height: 60px;" class="img-fluid" alt="Product Slider" />
+                    <h5 class="mt-3 mb-3">      الامكانيات</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               إدارة الشحنات الواردة والصادرة.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               آليات للدفع والسحب.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               أكواد الباركود.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               تخصيص المسارات.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               متكامل مع شركات الشحن.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="image/inventory icon 3.png" style="height: 60px;" class="img-fluid" alt="Product Slider" />
+                    <h5 class="mt-3 mb-3">      السرعة</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               إدارة المخزون في الوقت الفعلي مع جميع التصنيفات.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               تقليل حركة اختيار البضائع.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               جمع العمليات من شحنات مختلفة.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               تحسين عمليات الشراء بواسطة تخطيط المسارات.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               متابعة الموردين.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <img src="image/inventory icon 4.png" style="height: 60px;" class="img-fluid" alt="Product Slider" />
+                    <h5 class="mt-3 mb-3">      المتابعة</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               استراتيجة تجديد المخزون.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               قواعد الانتاج حسب الطلب.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               جدولة الانتاج.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               اقتراحات لأوامر الشراء.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               متابعة الموردين.
+                        </li>
+                         <li class="mb-3">
+                            <img src="image/dark-check.png" style="height: 20px;" class="img-fluid" alt="Product Slider" />
+                               إشعارات استلام أوامر الشراء.
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  <div class="slider-product">
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="image-slider">
+          <img src="image/Group 315.png" style="height: 500px;" class="img-fluid" alt="Product Slider" />
+        </div>
+        <div class="image-slider">
+          <img src="image/Group 315.png" style="height: 500px;" class="img-fluid" alt="Product Slider" />
+        </div>
+        <div class="image-slider">
+          <img src="image/Group 315.png" style="height: 500px;" class="img-fluid" alt="Product Slider" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="section-client mt-5 mb-5 p-80" style="background-color: #F8FCFF;">
+      <div class="container">
+       <div class="row">
+        <div class="col-lg-7 col-12">
+           <h1 class="mb-4">
+            Order new stock right from your inventory tracking system.
+              </h1>
+              <p>
+                Running low? Order new stock directly from Novetap Retail.
+              </p>
+        </div>
+        <div class="col-lg-5 col-12"></div>
+       </div>
+        <div class="row mt-5">
+          <div class="col-lg-6 col-12">
+            <img src="image/inventory-about.png" style="max-height: 700px; border-radius: 10px;" class="img-fluid"
+              alt="About Us" />
+          </div>
+          <div class="col-lg-6 col-12">
+            <div>
+
+              <div class="mb-4">
+                <div class="d-flex align-items-center mb-2">
+                    <img src="image/time-quarter-to 1.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 25px; height: 25px;" />
+                  <h5 style="margin: 0 10px;">
+                              التخزين
+                  </h5>
+                </div>
+                <div class="mt-3">
+                  <div class="d-flex mb-2 ms-3">
+                  <img src="image/dark-check.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 15px; height: 15px;" />
+                  <p style="margin: 0 10px;">
+                       إنشاء وإدارة مواقع تخزين محددة، كالأرفف والممرات وغرف التخزين المبردة ومنصات الرفوف.
+                  </p>
+                </div>
+
+                <div class="d-flex mb-2 ms-3">
+                  <img src="image/dark-check.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 15px; height: 15px;" />
+                  <p style="margin: 0 10px;">
+                    حول مسارات المنتجات تلقائياً إلى مواقع التخزين مخصصة، بناءً على السعة في الوقت الفعلي واحتياجات تخزين المنتج وسهولة الوصول للمنتج.
+                  </p>
+                </div>
+
+                <div class="d-flex mb-2 ms-3">
+                  <img src="image/dark-check.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 15px; height: 15px;" />
+                  <p style="margin: 0 10px;">
+                       إنشاء مواقع مخصصة لاستلام المنتجات وفرزها وتغليفها، والقيام بعمليات المخزون الأخرى.
+                  </p>
+                </div>
+
+                <div class="d-flex mb-2 ms-3">
+                  <img src="image/dark-check.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 15px; height: 15px;" />
+                  <p style="margin: 0 10px;">
+                       اختيار إستراتيجيات إزالة المنتجات، أوالقيام بتبسيط مسارات الوصول الى المنتج باستخدام الطرق الصحيحة.
+                  </p>
+                </div>
+
+                </div>
+              </div>
+
+               <div class="mb-4">
+                <div class="d-flex align-items-center mb-2">
+                    <img src="image/time-quarter-to 1.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 25px; height: 25px;" />
+                  <h5 style="margin: 0 10px;">
+                                 العمليات
+                  </h5>
+                </div>
+                <div class="mt-3">
+                  <div class="d-flex mb-2 ms-3">
+                  <img src="image/dark-check.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 15px; height: 15px;" />
+                  <p style="margin: 0 10px;">
+                       لوحة بيانات متخصصة للطلبات والمشتريات والجودة والمنتجات والتغليف والاستلام، تساهم في معرفة المهام المناسبة لتوفير الاحتياجات والمكونات اللازمة لضمان استمرارية الطلبات.
+                  </p>
+                </div>
+
+                <div class="d-flex mb-2 ms-3">
+                  <img src="image/dark-check.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 15px; height: 15px;" />
+                  <p style="margin: 0 10px;">
+                    حول مسارات المنتجات تلقائياً إلى مواقع التخزين مخصصة، بناءً على السعة في الوقت الفعلي واحتياجات تخزين المنتج وسهولة الوصول للمنتج.
+                  </p>
+                </div>
+
+                <div class="d-flex mb-2 ms-3">
+                  <img src="image/dark-check.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 15px; height: 15px;" />
+                  <p style="margin: 0 10px;">
+                       إنشاء مواقع مخصصة لاستلام المنتجات وفرزها وتغليفها، والقيام بعمليات المخزون الأخرى.
+                  </p>
+                </div>
+
+                <div class="d-flex mb-2 ms-3">
+                  <img src="image/dark-check.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 15px; height: 15px;" />
+                  <p style="margin: 0 10px;">
+                       اختيار إستراتيجيات إزالة المنتجات، أوالقيام بتبسيط مسارات الوصول الى المنتج باستخدام الطرق الصحيحة.
+                  </p>
+                </div>
+
+                </div>
+              </div>
+
+            
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-product p-80">
+    <div class="container">
+               <div class="owl-carousel owl-theme">
+        <div class="image-slider">
+          <img src="image/inventory-resource.png" style="height: 400px; border-radius: 10px;" class="img-fluid" alt="Product Slider" />
+        </div>
+        <div class="image-slider">
+          <img src="image/inventory-resource.png" style="height: 400px; border-radius: 10px;" class="img-fluid" alt="Product Slider" />
+        </div>
+        <div class="image-slider">
+          <img src="image/inventory-resource.png" style="height: 400px; border-radius: 10px;" class="img-fluid" alt="Product Slider" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div>
+               <div class="d-flex mb-4">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                             المسارات المتقدمة
+                  </h5>
+                </div>
+                <div>
+                  <h6>
+                       واجهة المستخدم
+                  </h6>
+                  <p>
+                       واجهة مستخدم سهلة الاستخدام مع خيارات متقدمة لتصفية جميع البيانات لتعطي نظرة واضحة على جميع أنشطة المبيعات.
+                  </p>
+                  <h6>
+                       الهاتف المحمول
+                  </h6>
+                  <p>
+                       الهاتف المحمول متوافق تماما مع ادارة العملاء مما يسمح ادارة العمل في أي مكان.
+                  </p>
+                  <h6>
+                       تصنيف تلقائي للعملاء
+                  </h6>
+                  <p>
+                       يتم إنشاء تصنيفات تلقائية على العملاء حسب نوع المعاملات التي تمت معهم، على سبيل المثال تصنيف تلقائي للعملاء القادمين من الموقع الالكتروني. 
+                  </p>
+                   <h6>
+                       سهولة التعامل
+                  </h6>
+                  <p>
+                       إدارة مخطط سير العمل بكل سهولة. فقط بعدة خطوات تمكن من ارسال ماهو مخطط له للعملاء.
+                  </p>
+                   <h6>
+                       إعداد الأنشطة
+                  </h6>
+                  <p>
+                       وضع المهام المخطط لها في قائمة الانتظار، مما يضمن التبديل المرن من مهمة إلى أخرى.
+                  </p>
+                </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div>
+               <div class="d-flex mb-4">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                                الإنتاجية
+                  </h5>
+                </div>
+                <div>
+                  <h6>
+                       سجل المصروفات
+                  </h6>
+                  <p>
+                       الاطلاع على ملاحظات الموظفين لإكمال النفقات أو التأكد من صحتها أو رفضها، والقيام بإضافة تعليق في حالة الرفض لتفسير ذلك القرار للموظف.
+                  </p>
+                  <h6>
+                       مقارنة بين النفقات والإيصالات
+                  </h6>
+                  <p>
+                       إنشاء مسودات الفواتير تلقائياً إلى أوامر المبيعات أو الاشتراكات أو الجداول الزمنية أو أوامر التوصيل.
+                  </p>
+                  <h6>
+                       الربط البرمجي للمحاسبة
+                  </h6>
+                  <p>
+                       إنشاء إشعارات دائنة للعملاء أو المورّدين مباشرة من فواتير العملاء أو فواتير المورّدين.
+                  </p>
+                   <h6>
+                       المبيعات والحد الائتماني
+                  </h6>
+                  <p>
+                       تشغيل التنبيهات عند إنشاء الفواتير وأوامر المبيعات للشركاء الذين يتجاوزون الحد الإجمالي للمبلغ المستحق لهم.
+                  </p>
+                   <h6>
+                       دعم العملات المتعددة
+                  </h6>
+                  <p>
+                       أسعار صرف العملة المحدثة يومياً وعلى الدوام.
+                  </p>
+                   <h6>
+                       قيود الدفتر اليومية
+                  </h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div>
+               <div class="d-flex mb-4">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                                الكميات
+                  </h5>
+                </div>
+                <div>
+                  <h6>
+                       الدفع عبر الإنترنت
+                  </h6>
+                  <p>
+                       الاتاحة للعملاء الدفع عبر الإنترنت باستخدام أي طريقة دفع.
+                  </p>
+                  <h6>
+                       حساب العملاء
+                  </h6>
+                  <p>
+                       حساب العملاء يسمح لهم عرض فواتيرهم وتحميلها ودفعها عبر الإنترنت، وبوسع العملاء إدارة اشتراكهم وتتبع حالة الطلب وإرسال الرسائل.
+                  </p>
+                  <h6>
+                       رقمنة الفواتير 
+                  </h6>
+                  <p>
+                       يقوم النظام بترميز ملفات PDF أو الصور تلقائيا عند رفعها على البرنامج.
+                  </p>
+                   <h6>
+                       المتابعات الآلية
+                  </h6>
+                  <p>
+                       التأكد من تحصيل رصيدك من خلال العمليات الآلية:  رسائل البريد الإلكتروني للمتابعة والخطابات والرسائل النصية القصيرة والمهام الألية لتذكير العملاء عند الضرورة.
+                  </p>
+                   <h6>
+                       الدفع عن طريق الهاتف المحمول
+                  </h6>
+                  <p>
+                       اضافة رمز QR إلى الفواتير حتى يتمكن العملاء الدفع من خلال الهاتف المحمول.
+                  </p>
+
+                </div>
+            </div>
+          </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div>
+               <div class="d-flex mb-4">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                             التتبع
+                  </h5>
+                </div>
+                <div>
+                  <h6>
+                       واجهة المستخدم
+                  </h6>
+                  <p>
+                       واجهة مستخدم سهلة الاستخدام مع خيارات متقدمة لتصفية جميع البيانات لتعطي نظرة واضحة على جميع أنشطة المبيعات.
+                  </p>
+                  <h6>
+                       الهاتف المحمول
+                  </h6>
+                  <p>
+                       الهاتف المحمول متوافق تماما مع ادارة العملاء مما يسمح ادارة العمل في أي مكان.
+                  </p>
+                  <h6>
+                       تصنيف تلقائي للعملاء
+                  </h6>
+                  <p>
+                       يتم إنشاء تصنيفات تلقائية على العملاء حسب نوع المعاملات التي تمت معهم، على سبيل المثال تصنيف تلقائي للعملاء القادمين من الموقع الالكتروني. 
+                  </p>
+                   <h6>
+                       سهولة التعامل
+                  </h6>
+                  <p>
+                       إدارة مخطط سير العمل بكل سهولة. فقط بعدة خطوات تمكن من ارسال ماهو مخطط له للعملاء.
+                  </p>
+                   <h6>
+                       إعداد الأنشطة
+                  </h6>
+                  <p>
+                       وضع المهام المخطط لها في قائمة الانتظار، مما يضمن التبديل المرن من مهمة إلى أخرى.
+                  </p>
+                </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div>
+               <div class="d-flex mb-4">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                             المنتجات
+                  </h5>
+                </div>
+                <div>
+                  <h6>
+                       سجل المصروفات
+                  </h6>
+                  <p>
+                       الاطلاع على ملاحظات الموظفين لإكمال النفقات أو التأكد من صحتها أو رفضها، والقيام بإضافة تعليق في حالة الرفض لتفسير ذلك القرار للموظف.
+                  </p>
+                  <h6>
+                       مقارنة بين النفقات والإيصالات
+                  </h6>
+                  <p>
+                       إنشاء مسودات الفواتير تلقائياً إلى أوامر المبيعات أو الاشتراكات أو الجداول الزمنية أو أوامر التوصيل.
+                  </p>
+                  <h6>
+                       الربط البرمجي للمحاسبة
+                  </h6>
+                  <p>
+                       إنشاء إشعارات دائنة للعملاء أو المورّدين مباشرة من فواتير العملاء أو فواتير المورّدين.
+                  </p>
+                   <h6>
+                       المبيعات والحد الائتماني
+                  </h6>
+                  <p>
+                       تشغيل التنبيهات عند إنشاء الفواتير وأوامر المبيعات للشركاء الذين يتجاوزون الحد الإجمالي للمبلغ المستحق لهم.
+                  </p>
+                   <h6>
+                       دعم العملات المتعددة
+                  </h6>
+                  <p>
+                       أسعار صرف العملة المحدثة يومياً وعلى الدوام.
+                  </p>
+                   <h6>
+                       قيود الدفتر اليومية
+                  </h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div>
+               <div class="d-flex mb-4">
+                  <img src="image/check-done.png" class="img-fluid"
+                    alt="Verification on Cloud"
+                    style="width: 20px; height: 20px;" />
+                  <h5 style="margin: 0 10px;">
+                                تقييم المخزون
+                  </h5>
+                </div>
+                <div>
+                  <h6>
+                       الدفع عبر الإنترنت
+                  </h6>
+                  <p>
+                       الاتاحة للعملاء الدفع عبر الإنترنت باستخدام أي طريقة دفع.
+                  </p>
+                  <h6>
+                       حساب العملاء
+                  </h6>
+                  <p>
+                       حساب العملاء يسمح لهم عرض فواتيرهم وتحميلها ودفعها عبر الإنترنت، وبوسع العملاء إدارة اشتراكهم وتتبع حالة الطلب وإرسال الرسائل.
+                  </p>
+                  <h6>
+                       رقمنة الفواتير 
+                  </h6>
+                  <p>
+                       يقوم النظام بترميز ملفات PDF أو الصور تلقائيا عند رفعها على البرنامج.
+                  </p>
+                   <h6>
+                       المتابعات الآلية
+                  </h6>
+                  <p>
+                       التأكد من تحصيل رصيدك من خلال العمليات الآلية:  رسائل البريد الإلكتروني للمتابعة والخطابات والرسائل النصية القصيرة والمهام الألية لتذكير العملاء عند الضرورة.
+                  </p>
+                   <h6>
+                       الدفع عن طريق الهاتف المحمول
+                  </h6>
+                  <p>
+                       اضافة رمز QR إلى الفواتير حتى يتمكن العملاء الدفع من خلال الهاتف المحمول.
+                  </p>
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-footer" style="padding: 80px 0 0 0; border-top: 1px solid gainsboro;">
+      <div class="container">
+        <div class="logo-footer">
+          <img src="image/logo.png" alt="Novetap Logo" style="height: 50px;" />
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Products</p>
+            <ul>
+              <li>
+                <a href="#">Point of sale</a>
+              </li>
+              <li>
+                <a href="#">HR System</a>
+              </li>
+              <li>
+                <a href="#">Accounting</a>
+              </li>
+              <li>
+                <a href="#">Finance</a>
+              </li>
+              <li>
+                <a href="#">Sales</a>
+              </li>
+              <li>
+                <a href="#">Websites</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Quick Links</p>
+            <ul>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">Support</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Resources</p>
+            <ul>
+              <li>
+                <a href="#">Help Center</a>
+              </li>
+              <li>
+                <a href="#">Request Demo</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <p class="fs-4">Legal</p>
+            <ul>
+              <li>
+                <a href="#">Privacy policy</a>
+              </li>
+              <li>
+                <a href="#">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <hr style="opacity: 0.1;">
+
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center mt-4">
+          <div>
+            <div class="dropdown">
+              <button class="dropdown-toggle dropdown-language" type="button"
+                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fa-solid fa-globe"></i>
+                English(US)
+              </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Arabic</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="social-icons">
+              <ul>
+                <li><a href="#">
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-twitter fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-youtube fa-lg"></i>
+                  </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                  </a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <hr style="opacity: 0.1;">
+
+        <div class="container">
+          <p style="font-size: 14px;">
+            Novetap © 2025. All Rights Reserved.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- scroll to top -->
+
+      <i class="fa-solid fa-angle-up fa-lg text-white"></i>
+    </a>
+
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
