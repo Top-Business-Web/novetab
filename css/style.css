@@ -107,6 +107,14 @@ a {
 .dropdown-toggle::after{
     display: none;
 }
+.dropdown-menu{
+  z-index: 999999;
+}
+@media (max-width: 992px) {
+  .menu {
+    width: min-content;
+  }
+}
 
 /* end navbar */
 
